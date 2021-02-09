@@ -55,7 +55,8 @@ export async function getServerSideProps({ query, res }) {
     let redirect
 
     if (slug === 'starvegas') redirect = 'https://www.starvegas.it/gmg/refer/5ee3b2e8e32951000129f2d7'
-    if (slug === 'leovegas') redirect = 'https://ads.leovegas.com/redirect.aspx?pid=3660661&bid=14965'
+    if (slug === 'leovegas') redirect = 'https://ads.leovegas.com/redirect.aspx?pid=3701288&bid=14965'
+
 
     return {
         props: {

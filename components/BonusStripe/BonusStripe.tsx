@@ -29,6 +29,7 @@ const BonusStripe: FunctionComponent<Props> = ({ bonus, eng = false, countryCode
         const linkToOpen = extractLink()
         if(linkToOpen.includes('leovegas')) Router.push('/visita/leovegas')
         if(linkToOpen.includes('starvegas')) Router.push('/visita/starvegas')
+
         window.open(extractLink())
     }
 
