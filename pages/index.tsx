@@ -62,7 +62,7 @@ const index : FunctionComponent<Props> = ({streamerData}) => {
                     <img className='logo' src='/icons/app_icon.png' />
                 </div>
 
-                <h1>Top Casino choice for this Slot Machine</h1>
+                <h1>Migliori casinò legali dove trovare questi giochi:</h1>
 
                 {bonuses && bonuses.length > 2 && bonuses.map((bonus : StreamerBonus) => <BonusStripe key={`${bonus.name}`} bonus={bonus} countryCode={country} />)}
 

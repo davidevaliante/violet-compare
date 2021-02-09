@@ -15,19 +15,18 @@ const palette = {
 const VideoDiscalimer = (props: Props) => {
     return (
         <Container>
-            This website serves as a comparison between multiple bonuses for a given country and it's aimed to be as honest and transparent as possible. In this list you'll find only certified online casinos for your country but there might be some error due to the use of an external geolocalization tool.
-            Underage gambling is stricly forbidden and it might cause addiction. Play responsibly and do not chase your losses.
+            Questo sito confronta [in tempo reale] i bonus offerti dai Bookmakers da noi selezionati, in possesso di regolare concessione ad operare in Italia rilasciata dall’Agenzia delle Dogane e dei Monopoli. Il servizio, come indicato dall’Autorità per le garanzie nelle comunicazioni al punto 5.6 delle proprie Linee Guida (allegate alla delibera 132/19/CONS), è effettuato nel rispetto del principio di continenza, non ingannevolezza e trasparenza e non costituisce pertanto una forma di pubblicità
 
-            <div className='alert-container'>
+            {/* <div className='alert-container'>
                 <LazyImage
                     width={46}
                     height={46}
                     alt='alert icon'
                     src='/icons/alert.svg' />
-            </div>
+            </div> */}
 
 
-            {/* <div style={{ display: 'flex', background: 'white', padding: '1rem', justifyContent: 'space-around', alignItems: 'center' }}>
+            <div style={{ display: 'flex', background: 'white', padding: '1rem', justifyContent: 'space-around', alignItems: 'center' }}>
                 <LazyImage
                     width={80}
                     height={70}
@@ -39,7 +38,7 @@ const VideoDiscalimer = (props: Props) => {
                     height={40}
                     alt='alert icon'
                     src='/icons/playsafe_left_it.png' />
-            </div> */}
+            </div>
 
         </Container>
     )
